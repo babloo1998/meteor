@@ -1,0 +1,323 @@
+.navcontent {
+  color: white !important;
+  font-weight: 100;
+  font-size: 15px; }
+
+.primarynav .navbardata {
+  font-size: 15px;
+  color: #767676; }
+  .primarynav .navbardata a {
+    color: #767676;
+    padding: 10px; }
+    .primarynav .navbardata a:hover {
+      background: white;
+      color: #020202; }
+  .primarynav .navbardata i, .primarynav .navbardata span {
+    font-size: 17px; }
+    .primarynav .navbardata i:hover, .primarynav .navbardata span:hover {
+      color: white; }
+
+.secondrynav {
+  background: white;
+  padding: 0px; }
+  .secondrynav .navbardata {
+    font-size: 15px; }
+    .secondrynav .navbardata a {
+      color: #090E1D;
+      padding: 25px; }
+      .secondrynav .navbardata a:hover {
+        background: #1A0E36;
+        color: white; }
+
+.icons .fab, .icons .far {
+  color: white;
+  font-size: 16px; }
+.icons span {
+  color: white;
+  font-size: 12px; }
+
+.bannerwrapper, .banner {
+  display: flex;
+  text-align: start;
+  height: 500px;
+  position: relative;
+  width: 100%; }
+  .bannerwrapper .bannerinner, .banner .bannerinner {
+    background-size: cover;
+    background-repeat: no-repeat;
+    gradient: linear-gradient(to bottom, rgba(239, 87, 84, 0.3) 0%, rgba(124, 24, 147, 0.75) 100%); }
+  .bannerwrapper .bannercontent, .banner .bannercontent {
+    padding: 20px;
+    position: absolute;
+    width: 100%;
+    bottom: 0; }
+    .bannerwrapper .bannercontent .status, .banner .bannercontent .status {
+      font-size: 15px;
+      width: 16%;
+      border-radius: 5px;
+      padding: 6px;
+      background: #5F75AE;
+      color: white;
+      font-weight: 500; }
+    .bannerwrapper .bannercontent .update, .banner .bannercontent .update {
+      font-size: 12px;
+      font-weight: 500;
+      color: white; }
+    .bannerwrapper .bannercontent .data, .banner .bannercontent .data {
+      font-size: 16px;
+      font-weight: 700;
+      color: white; }
+
+.stylehunter .stylehunternav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid;
+  border-image: linear-gradient(to right, rgba(112, 12, 143, 0.9) 0%, rgba(19, 185, 218, 0.5) 70%, rgba(37, 219, 84, 0.75) 100%);
+  border-image-slice: 1; }
+  .stylehunter .stylehunternav .navbar-brand {
+    color: #7b62a9;
+    font-weight: 900;
+    font-size: 1.4rem; }
+  .stylehunter .stylehunternav .nav-item .nav-link {
+    color: black; }
+    .stylehunter .stylehunternav .nav-item .nav-link:hover {
+      color: #7b62a9; }
+
+.congresspost .post-data {
+  background-color: white;
+  text-align: left;
+  padding-bottom: 30px;
+  margin-bottom: 20px; }
+  .congresspost .post-data .post-status {
+    font-size: 18px;
+    color: white;
+    padding: 3px;
+    padding-left: 6%;
+    background: #8A3AB9; }
+  .congresspost .post-data .post-heading {
+    background: linear-gradient(to right, rgba(112, 12, 143, 0.9) 0%, rgba(19, 185, 218, 0.5) 70%, rgba(37, 219, 84, 0.75) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .congresspost .post-data .post-update {
+    font-size: 13px;
+    font-weight: 500;
+    color: #838793;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .congresspost .post-data .post-content {
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.card {
+  border: none;
+  text-align: left; }
+  .card .card-data .card-status {
+    font-size: 16px;
+    color: white;
+    padding-left: 6%;
+    width: 35%;
+    background: #8A3AB9; }
+  .card .card-data .card-heading {
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .card .card-data .card-update {
+    font-size: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-weight: 500;
+    color: #838793; }
+  .card .card-data .card-content {
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px; }
+
+.news {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 0px;
+  justify-content: space-around; }
+  .news .smallcard {
+    display: flex;
+    width: 45%;
+    margin-bottom: 25px; }
+    .news .smallcard .smallcard-content {
+      text-align: left; }
+      .news .smallcard .smallcard-content h5 {
+        font-size: 15px;
+        margin-left: 10px; }
+      .news .smallcard .smallcard-content p {
+        font-size: 12px;
+        margin-left: 10px; }
+
+.socialcards-wrapper {
+  display: flex;
+  flex-wrap: wrap; }
+  .socialcards-wrapper .socialcards {
+    width: 42%;
+    margin-right: 16px;
+    margin-top: 30px;
+    padding: 10px; }
+    .socialcards-wrapper .socialcards :last-child {
+      margin-right: 0px; }
+    .socialcards-wrapper .socialcards .followers {
+      font-size: 20px;
+      font-weight: 500;
+      color: white;
+      margin: 0px; }
+    .socialcards-wrapper .socialcards .tags {
+      font-size: 14px;
+      font-weight: 500;
+      color: white; }
+    .socialcards-wrapper .socialcards i {
+      color: white;
+      font-size: 25px;
+      padding: 8px;
+      border-radius: 50%;
+      background: black; }
+
+.popularpostwrapper {
+  background: white;
+  text-align: left; }
+  .popularpostwrapper img {
+    background-image: linear-gradient(#004092, #020202, transparent); }
+  .popularpostwrapper h5 {
+    padding-top: 20px;
+    padding-left: 5px; }
+  .popularpostwrapper .content {
+    color: white;
+    padding: 10px;
+    font-weight: 900; }
+  .popularpostwrapper .status {
+    width: 25%;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin: 0px; }
+
+.instacardwrapper {
+  margin-top: 30px; }
+  .instacardwrapper .instacard {
+    position: relative; }
+    .instacardwrapper .instacard div {
+      position: absolute;
+      opacity: 0.9;
+      bottom: 0;
+      color: white;
+      text-align: left;
+      padding: 10px; }
+      .instacardwrapper .instacard div p {
+        font-size: 18px; }
+      .instacardwrapper .instacard div h6 {
+        font-size: 25px; }
+    .instacardwrapper .instacard p, .instacardwrapper .instacard h6 {
+      font-weight: 900; }
+
+.Footernav .navbar {
+  display: flex;
+  justify-content: space-between; }
+.Footernav a {
+  color: #898FA3; }
+
+.footercontent, .footermenu {
+  color: #898FA3; }
+
+.footersocialcard {
+  display: flex;
+  justify-content: space-around; }
+
+@media only screen and (max-width: 767px) and (min-width: 320px) {
+  .bannerwrapper {
+    display: block;
+    height: 1500px; }
+
+  .stylehunter {
+    text-align: center; }
+    .stylehunter .wrapper {
+      position: relative;
+      padding-bottom: 56.25%;
+      /* 16:9 */
+      padding-top: 25px;
+      height: 0; }
+    .stylehunter .wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%; }
+
+  .card .card-data .card-status {
+    font-size: 16px;
+    color: white;
+    padding-left: 6%;
+    width: 37%;
+    background: #8A3AB9; }
+
+  h5, h6 {
+    font-size: 14px; }
+
+  p, span {
+    font-size: 12px; }
+
+  .news .smallcard {
+    width: 100%; }
+    .news .smallcard .smallcard-content h5 {
+      font-size: 12px; }
+    .news .smallcard .smallcard-content p {
+      font-size: 12px; }
+
+  .socialcards-wrapper .socialcards {
+    width: 40%; }
+
+  .instacardwrapper .instacard div h6 {
+    font-size: 18px; }
+  .instacardwrapper .instacard div p {
+    font-size: 15px; }
+
+  .stylehunter .nav-item .nav-link {
+    display: none; }
+
+  .popularpostwrapper .popularpost .content .status {
+    margin: 0px;
+    width: 30%; }
+
+  .footercontentwrapper {
+    display: none; }
+
+  .footerwrapper {
+    margin-top: 20px; }
+    .footerwrapper .container {
+      padding: 0px; }
+      .footerwrapper .container .col-sm-6 {
+        padding: 0px;
+        width: 50%;
+        padding-top: 10px;
+        padding-left: 20px; }
+
+  .primarynav .navbar-toggler .navbar-toggler-icon i {
+    color: white; }
+
+  .secondrynav .navbar-toggler .navbar-toggler-icon i {
+    color: #623b79; } }
+@media (min-width: 768px) and (max-width: 991px) {
+  .card .card-data .card-status {
+    width: 20%; }
+
+  .footerwrapper {
+    margin-top: 25px; }
+
+  .footercontentwrapper {
+    width: 100%; }
+    .footercontentwrapper .footersocialcard {
+      display: none; }
+
+  .primarynav .navbar-toggler .navbar-toggler-icon i {
+    color: white; }
+
+  .secondrynav .navbar-toggler .navbar-toggler-icon i {
+    color: #623b79; } }
+
+/*# sourceMappingURL=style.css.map */
