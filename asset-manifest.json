@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/meteor/static/css/main.720fdd64.chunk.css",
+    "main.js": "/meteor/static/js/main.b6d9d9e5.chunk.js",
+    "main.js.map": "/meteor/static/js/main.b6d9d9e5.chunk.js.map",
+    "runtime~main.js": "/meteor/static/js/runtime~main.c3248b4c.js",
+    "runtime~main.js.map": "/meteor/static/js/runtime~main.c3248b4c.js.map",
+    "static/js/2.d6a534e5.chunk.js": "/meteor/static/js/2.d6a534e5.chunk.js",
+    "static/js/2.d6a534e5.chunk.js.map": "/meteor/static/js/2.d6a534e5.chunk.js.map",
+    "index.html": "/meteor/index.html",
+    "precache-manifest.892cd88cc9be13d75926adfc863c345d.js": "/meteor/precache-manifest.892cd88cc9be13d75926adfc863c345d.js",
+    "service-worker.js": "/meteor/service-worker.js",
+    "static/css/main.720fdd64.chunk.css.map": "/meteor/static/css/main.720fdd64.chunk.css.map"
+  }
+}
